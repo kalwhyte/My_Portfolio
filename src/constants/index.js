@@ -124,29 +124,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Back-End Developer',
+    company_name: 'Houston Wireless',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'June 2021 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Code Mentor',
+    company_name: 'CodeTrybe',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Mar 2023 - Present',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Junior Software Engineer intern',
+    company_name: 'HNGi8',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Aug 2023 - Oct 2023',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'ALX',
     icon: dcc,
     iconBg: '#333333',
     date: 'Sep 2022 - Present',
@@ -156,8 +156,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'CodeTrybe Institute',
+    description: 'A school website built with django framework.',
     tags: [
       {
         name: 'react',
@@ -173,14 +173,14 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/kalwhyte/web_project',
+    demo: 'http://codetrybe.onrender.com/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Jaguars Food',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A backend API that is used to manage a person resources.',
     tags: [
       {
         name: 'react',
@@ -196,13 +196,13 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/kalwhyte/Jaguars-food-backend',
+    demo: 'https://jaguars-food-backend.vercel.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Stick It',
+    description: 'This is a trello clone built with reactframework and djangorestframework.',
     tags: [
       {
         name: 'nextjs',
@@ -218,13 +218,13 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/kalwhyte/Stick-It',
+    demo: 'https://stick-it-ashy.vercel.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Airbnb Clone',
+    description: `Airbnb clone built using python.`,
     tags: [
       {
         name: 'nextjs',
@@ -240,14 +240,13 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/kalwhyte/AirBnB_clone_v4',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Simple Shell',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'This is a test on Simple Shell built during my days in ALX SE.',
     tags: [
       {
         name: 'nextjs',
@@ -263,8 +262,7 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/kalwhyte/simple_shell',
   },
 ];
 
