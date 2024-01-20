@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import whyte from './personal/whyte.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -16,8 +16,8 @@ import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
-import pineapple from './icons/pineapple.png';
-import pineappleHover from './icons/pineappleHover.png';
+import banana from './icons/banana.png';
+import bananaHover from './icons/bananaHover.png';
 import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
@@ -37,17 +37,28 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import django from './tech/django.png';
+import rest from './tech/rest.png';
+import sql from './tech/sql.png';
+import mongodb from './tech/mongodb.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
+import alx from './company/alx.png';
+import wireless from './company/wireless.png';
+
+import hng from './company/hng.png';
+
+import codetry from './company/codetry.png';
+import pem from './company/pem.png';
+
+
+import pems from './projects/pems.png';
+import codetrybe from './projects/codetrybe.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
+import airbnb from './projects/airbnb.png';
+import ip from './projects/ip.png';
+import simple_shell from './projects/simple_shell.png';
 import space from './projects/space-hub.png';
 
 export {
@@ -57,7 +68,7 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  whyte,
   backend,
   ux,
   frontend,
@@ -66,8 +77,8 @@ export {
   close,
   download,
   downloadHover,
-  pineapple,
-  pineappleHover,
+  banana,
+  bananaHover,
   menu,
   resume,
   send,
@@ -86,14 +97,22 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
+
   leaderboard,
   math,
-  movie,
-  nyeusi,
+  ip,
+  pems,
+  django,
+  rest,
+  sql,
+  hng,
+  codetrybe,
+  codetry,
+  alx,
+  pem,
+  mongodb,
+  airbnb,
+  simple_shell,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  wireless,
 };

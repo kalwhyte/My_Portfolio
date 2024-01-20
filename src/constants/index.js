@@ -8,105 +8,106 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   git,
   figma,
   docker,
   postgresql,
-  rubyrails,
   graphql,
-  komikult,
+  django,
+  rest,
+  sql,
+  alx,
+  codetry,
   leaderboard,
   math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  airbnb,
+  pems,
+  mongodb,
+  codetrybe,
+  simple_shell,
+  pem,
+  wireless,
+  hng,
+  ip,
+  logo,
 } from '../assets';
 
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'All About Me',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'My Projects',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'Reach Out',
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
-  },
-  {
     title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Frontend Developer',
+    icon: frontend,
+  },
+  {
+    title: 'Automation Design',
     icon: ux,
   },
   {
     title: 'Software Prototyping',
     icon: prototyping,
   },
+  {
+    title: 'Software Maintenance',
+    icon: ux,
+  },
+  {
+    title: 'Software Development',
+    icon: frontend,
+  },
+  {
+    title: 'Software Deployment',
+    icon: prototyping,
+  },
+  {
+    title: 'Software Documentation',
+    icon: frontend,
+  },
+  {
+    title: 'Software Debugging',
+    icon: ux,
+  },
+  {
+    title: 'Software Testing',
+    icon: ux,
+  },
+  {
+    title: 'Software Integration',
+    icon: backend,
+  },
+  {
+    title: 'Software Design',
+    icon: backend,
+  },
 ];
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
+    {
+    name: 'DjangoRestFramework',
+    icon: rest,
   },
   {
     name: 'JavaScript',
     icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
   },
   {
     name: 'git',
@@ -120,37 +121,95 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'TypeScript',
+    icon: typescript,
+  },
+  {
+    name: 'HTML 5',
+    icon: html,
+  },
+  {
+    name: 'CSS 3',
+    icon: css,
+  },
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: tailwind,
+  },
+  {
+    name: 'Node JS',
+    icon: nodejs,
+  },
+  {
+    name: 'Django',
+    icon: django,
+  },
+  {
+    name: 'mysql',
+    icon: sql,
+  },
+  {
+    name: 'postgresql',
+    icon: postgresql,
+  },
+  {
+    name: 'mongoDb',
+    icon: mongodb,
+  },
+  {
+    name: 'graphql',
+    icon: graphql,
+  },
 ];
 
 const experiences = [
   {
+    title: 'IT Specialist',
+    company_name: 'Pem Integrated Energy Services Limited',
+    icon: pem,
+    iconBg: '#333333',
+    date: 'Jan 2024 - Present',
+  },
+  {
     title: 'Back-End Developer',
     company_name: 'Houston Wireless',
-    icon: coverhunt,
+    icon: wireless,
     iconBg: '#333333',
     date: 'June 2021 - Present',
   },
   {
-    title: 'Code Mentor',
-    company_name: 'CodeTrybe',
-    icon: microverse,
+    title: 'Project Manager',
+    company_name: 'CodeTrybe Community',
+    icon: codetry,
     iconBg: '#333333',
     date: 'Mar 2023 - Present',
   },
   {
     title: 'Junior Software Engineer intern',
     company_name: 'HNGi8',
-    icon: kelhel,
+    icon: hng,
     iconBg: '#333333',
     date: 'Aug 2023 - Oct 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'ALX',
-    icon: dcc,
+    title: 'Furniture Designer',
+    company_name: 'Whyte Walker Installations',
+    icon: logo,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Dec 2019 - Present',
   },
+  {
+    title: 'Backend Software Engineer',
+    company_name: 'ALX Africa',
+    icon: alx,
+    iconBg: '#333333',
+    date: 'Oct 2022 - Nov 2023',
+  }
 ];
 
 const projects = [
@@ -172,7 +231,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: codetrybe,
     repo: 'https://github.com/kalwhyte/web_project',
     demo: 'http://codetrybe.onrender.com/',
   },
@@ -239,7 +298,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
+    image: airbnb,
     repo: 'https://github.com/kalwhyte/AirBnB_clone_v4',
   },
   {
@@ -261,9 +320,73 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
+    image: simple_shell,
+    repo: 'https://github.com/kalwhyte/simple_shell',
+  },
+  {
+    id: 'project-6',
+    name: 'Pem Integrated Energy Services Limited',
+    description: 'Built using djangorestframework, html5, CSS and Javascript.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: pems,
+    repo: 'https://github.com/kalwhyte/pem_integrated',
+    demo: 'https://pemintegratedenergy.onrender.com/',
+  },
+  {
+    id: 'project-7',
+    name: 'IP Communication',
+    description: `Communication through IP address built using python.`,
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: ip,
+    repo: 'https://github.com/kalwhyte/Communication_between_pc',
+  },
+  {
+    id: 'project-8',
+    name: 'DailyTracker',
+    description:
+      'This is a community project from codeTrybe.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: simple_shell,
     repo: 'https://github.com/kalwhyte/simple_shell',
   },
 ];
-
 export { services, technologies, experiences, projects };

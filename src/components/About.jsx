@@ -37,9 +37,9 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I'm Ejiofor Emmanuel Arinze, a passionate and driven software engineer currently pursuing my career in backend development. I have a strong foundation in software engineering, and I am continually seeking opportunities to expand my knowledge and skills. I am a fast learner and a team player who is proficient in an array of scripting languages and frameworks. I am also a self-motivated, hardworking, and goal-oriented individual who is keen on solving problems and delivering results.
+        I'm Ejiofor Emmanuel Arinze, a passionate and driven software engineer currently pursuing my career in IT, Software & backend development. I have a strong foundation in software engineering, and I am continually seeking opportunities to expand my knowledge and skills. I am a fast learner and a team player who is proficient in an array of scripting languages and frameworks. I am also a self-motivated, hardworking, and goal-oriented individual who is keen on solving problems and delivering results.
         
-        I am a finalist in the ALX Software Engineering program, where I have gained valuable insights into modern software development practices. Additionally, I had the privilege of interning as a backend developer at HNG, where I further honed my skills and contributed to real-world projects. 
+        I am a graduate ALX Africa, With specialization in Backend Engineering. I have gained valuable insights into modern software development practices. Additionally, I had the privilege of interning as a backend developer at HNG, where I further honed my skills and contributed to real-world projects. 
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
