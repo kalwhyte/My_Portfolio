@@ -325,7 +325,7 @@ const projects = [
   },
   {
     id: 'project-6',
-    name: 'Pem Integrated Energy Services Limited',
+    name: 'PIES Limited',
     description: 'Built using djangorestframework, html5, CSS and Javascript.',
     tags: [
       {

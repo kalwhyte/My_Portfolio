@@ -26,23 +26,41 @@ const Contact = () => {
     setLoading(true);
 
     // sign up on emailjs.com (select the gmail service and connect your account).
-    const serviceID = 'service_1i3fwvc';
-    const templateID = 'template_0t7r7kd';
-    const yourpublickey = 'DRDlZlh8rm4q4brXj';
+    const serviceID = 'service_hkinnuu';
+    const templateID = 'template_xg46jzg';
+    const publickey = 'JA_J1jWEuKG_3gfZN';
 
-    //click on create a new template then click on save.
+    // create a new template on emailjs.com (select the gmail service and connect your account).
+     var template_params = {
+      from_name: form.name,
+      to_name: form.name, // put your name here.
+      from_email: form.email,
+      to_email: 'superkalel55@gmail.com', //put your email here.
+      notes: 'Check out this awesome website',
+    };
+    
     emailjs
+      .send(serviceID, templateID, template_params, publickey)
+        .then(function(response) {
+          console.log('Wow --- SUCCESS!', response.status, response.text);
+        })
+        .catch(function(error) {
+          console.log('Ouch --- Let Us Try Again...', error);
+        }
+      );
+    //click on create a new template then click on save.
+   /*emailjs
       .send(
         'serviceID', // paste your ServiceID here (you'll get one when your service is created).
         'templateID', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'Ejiofor Emmanuel Whyte', // put your name here.
+          to_name: form.name, // put your name here.
           from_email: form.email,
           to_email: 'superkalel55@gmail.com', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        publickey //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
@@ -60,7 +78,7 @@ const Contact = () => {
           console.log(error);
           alert('Something went wrong. Please try again.');
         }
-      );
+      );*/
   };
 
   return (
