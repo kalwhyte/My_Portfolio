@@ -101,7 +101,7 @@ const services = [
 ];
 
 const technologies = [
-    {
+  {
     name: 'DjangoRestFramework',
     icon: rest,
   },

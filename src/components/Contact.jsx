@@ -6,6 +6,7 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
 
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -26,9 +27,9 @@ const Contact = () => {
     setLoading(true);
 
     // sign up on emailjs.com (select the gmail service and connect your account).
-    const serviceID = 'service_hkinnuu';
-    const templateID = 'template_xg46jzg';
-    const publickey = 'JA_J1jWEuKG_3gfZN';
+    const serviceID = process.env.REACT_APP_SERVICE_ID;
+    const templateID = process.env.REACT_APP_TEMPLATE_ID;
+    const publickey = process.env.REACT_APP_PUBLIC_KEY;
 
     // create a new template on emailjs.com (select the gmail service and connect your account).
      var template_params = {
@@ -36,7 +37,7 @@ const Contact = () => {
       to_name: form.name, // put your name here.
       from_email: form.email,
       to_email: 'superkalel55@gmail.com', //put your email here.
-      notes: 'Check out this awesome website',
+      notes: 'Check out my portfolio page.',
     };
     
     emailjs
@@ -45,7 +46,7 @@ const Contact = () => {
           console.log('Wow --- SUCCESS!', response.status, response.text);
         })
         .catch(function(error) {
-          console.log('Ouch --- Let Us Try Again...', error);
+          console.log('Ouch!! Let Us Try Again...', error);
         }
       );
     //click on create a new template then click on save.
@@ -86,9 +87,9 @@ const Contact = () => {
       className="-mt-[8rem] xl:flex-row flex-col-reverse 
       flex gap-10 overflow-hidden">
       <motion.div
-        variants={slideIn('left', 'tween', 0.2, 1)}
+        variants={slideIn('right', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Drop a Message</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
 
         <form
